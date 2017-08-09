@@ -1,5 +1,5 @@
 {
-  "name": "clickky/clickhouse-builder",
+  "name": "the-tinderbox/clickhouse-builder",
   "description": "Clickhouse sql query builder",
   "authors": [
     {
@@ -28,7 +28,7 @@
     ]
   },
   "require": {
-    "php": "~7.0",
+    "php": "~7.1",
     "myclabs/php-enum": "^1.5",
     "the-tinderbox/clickhouse-php-client": "^1.0"
   },
