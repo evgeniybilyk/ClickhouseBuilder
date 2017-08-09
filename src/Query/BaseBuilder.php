@@ -63,6 +63,13 @@ abstract class BaseBuilder
     protected $groups = [];
 
     /**
+     * WITH TOTAL option
+     *
+     * @var bool
+     */
+    protected $withTotal = false;
+
+    /**
      * Having statements.
      *
      * @var TwoElementsLogicExpression[]
@@ -1629,6 +1636,29 @@ abstract class BaseBuilder
         $this->groups = array_merge($this->groups, $this->processColumns($columns, false));
 
         return $this;
+    }
+
+    /**
+     * set with total option
+     *
+     * @param bool $withTotal
+     * @return $this
+     */
+    public function withTotal(bool $withTotal)
+    {
+        $this->withTotal = $withTotal;
+
+        return $this;
+    }
+
+    /**
+     * get with total option
+     *
+     * @return bool
+     */
+    public function getWithTotal()
+    {
+        return $this->withTotal;
     }
 
     /**

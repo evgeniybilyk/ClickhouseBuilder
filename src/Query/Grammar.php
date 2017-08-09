@@ -20,6 +20,7 @@ use Tinderbox\ClickhouseBuilder\Query\Traits\TupleCompiler;
 use Tinderbox\ClickhouseBuilder\Query\Traits\TwoElementsLogicExpressionsCompiler;
 use Tinderbox\ClickhouseBuilder\Query\Traits\UnionsComponentCompiler;
 use Tinderbox\ClickhouseBuilder\Query\Traits\WheresComponentCompiler;
+use Tinderbox\ClickhouseBuilder\Query\Traits\WithTotalComponentCompiler;
 
 class Grammar
 {
@@ -32,6 +33,7 @@ class Grammar
         HavingsComponentCompiler,
         SampleComponentCompiler,
         GroupsComponentCompiler,
+        WithTotalComponentCompiler,
         OrdersComponentCompiler,
         LimitComponentCompiler,
         LimitByComponentCompiler,
@@ -47,6 +49,7 @@ class Grammar
         'prewheres',
         'wheres',
         'groups',
+        'withTotal',
         'havings',
         'orders',
         'limitBy',
