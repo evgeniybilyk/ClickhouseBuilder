@@ -9,6 +9,6 @@ use MyCLabs\Enum\Enum;
  */
 final class JoinStrict extends Enum
 {
-    public const ALL = 'ALL';
-    public const ANY = 'ANY';
+    const ALL = 'ALL';
+    const ANY = 'ANY';
 }

@@ -192,7 +192,7 @@ class From
      *
      * @return Identifier
      */
-    public function getAlias() : ?Identifier
+    public function getAlias()
     {
         return $this->alias;
     }
@@ -202,7 +202,7 @@ class From
      *
      * @return bool
      */
-    public function getFinal() : ?bool
+    public function getFinal()
     {
         return $this->final;
     }
@@ -212,7 +212,7 @@ class From
      *
      * @return null|BaseBuilder
      */
-    public function getSubQuery() : ?BaseBuilder
+    public function getSubQuery()
     {
         return $this->subQuery;
     }

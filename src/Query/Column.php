@@ -139,7 +139,7 @@ class Column
      *
      * @return Identifier|null
      */
-    public function getAlias() : ?Identifier
+    public function getAlias()
     {
         return $this->alias;
     }
@@ -159,7 +159,7 @@ class Column
      *
      * @return Builder|null
      */
-    public function getSubQuery() : ?Builder
+    public function getSubQuery()
     {
         return $this->subQuery;
     }

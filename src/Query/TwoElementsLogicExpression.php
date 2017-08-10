@@ -166,7 +166,7 @@ class TwoElementsLogicExpression
      *
      * @return mixed
      */
-    public function getOperator() : ?Operator
+    public function getOperator()
     {
         return $this->operator;
     }

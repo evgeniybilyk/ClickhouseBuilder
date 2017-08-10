@@ -9,6 +9,6 @@ use MyCLabs\Enum\Enum;
  */
 final class JoinType extends Enum
 {
-    public const INNER = 'INNER';
-    public const LEFT = 'LEFT';
+    const INNER = 'INNER';
+    const LEFT = 'LEFT';
 }

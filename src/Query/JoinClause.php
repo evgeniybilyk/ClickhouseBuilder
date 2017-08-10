@@ -249,7 +249,7 @@ class JoinClause
      *
      * @return array|null
      */
-    public function getUsing(): ?array
+    public function getUsing()
     {
         return $this->using;
     }
@@ -269,7 +269,7 @@ class JoinClause
      *
      * @return JoinStrict|null
      */
-    public function getStrict(): ?JoinStrict
+    public function getStrict()
     {
         return $this->strict;
     }
@@ -279,7 +279,7 @@ class JoinClause
      *
      * @return JoinType|null
      */
-    public function getType(): ?JoinType
+    public function getType()
     {
         return $this->type;
     }
@@ -289,7 +289,7 @@ class JoinClause
      *
      * @return BaseBuilder|null
      */
-    public function getSubQuery(): ?BaseBuilder
+    public function getSubQuery()
     {
         return $this->subQuery;
     }

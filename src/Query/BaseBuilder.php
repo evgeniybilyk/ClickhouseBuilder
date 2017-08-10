@@ -1823,7 +1823,7 @@ abstract class BaseBuilder
      *
      * @return From|null
      */
-    public function getFrom() : ?From
+    public function getFrom()
     {
         return $this->from;
     }
@@ -1833,7 +1833,7 @@ abstract class BaseBuilder
      *
      * @return JoinClause
      */
-    public function getJoin() : ?JoinClause
+    public function getJoin()
     {
         return $this->join;
     }
@@ -1843,7 +1843,7 @@ abstract class BaseBuilder
      *
      * @return Limit
      */
-    public function getLimit() : ?Limit
+    public function getLimit()
     {
         return $this->limit;
     }
@@ -1853,7 +1853,7 @@ abstract class BaseBuilder
      *
      * @return Limit
      */
-    public function getLimitBy() : ?Limit
+    public function getLimitBy()
     {
         return $this->limitBy;
     }
@@ -1863,7 +1863,7 @@ abstract class BaseBuilder
      *
      * @return float|null
      */
-    public function getSample() : ?float
+    public function getSample()
     {
         return $this->sample;
     }
@@ -1883,7 +1883,7 @@ abstract class BaseBuilder
      *
      * @return null|Format
      */
-    public function getFormat() : ?Format
+    public function getFormat()
     {
         return $this->format;
     }

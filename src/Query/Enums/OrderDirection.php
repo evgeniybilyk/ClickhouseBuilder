@@ -9,6 +9,6 @@ use MyCLabs\Enum\Enum;
  */
 final class OrderDirection extends Enum
 {
-    public const ASC = 'ASC';
-    public const DESC = 'DESC';
+    const ASC = 'ASC';
+    const DESC = 'DESC';
 }
